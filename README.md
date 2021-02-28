@@ -3,3 +3,6 @@ Demonstrating using variables, handling different data types, operators and cond
 
 ## What I learned from this execercise:
 - How to show variables to the html pages using JavaScript (not just working in the console)
+
+## Issue:
+- Do not really know how to calculate the tax...
