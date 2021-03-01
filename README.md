@@ -6,3 +6,4 @@ Demonstrating using variables, handling different data types, operators and cond
 
 ## Fixed Issue:
 - The total cost after tax: from hardcoding 30 to multiplying ticketCostDollarsCDN into taxRate 
+- Fixed from hardcoding 24 to minimumAgeToPurchase in if-else function

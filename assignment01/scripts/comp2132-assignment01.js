@@ -15,7 +15,7 @@ supplied by the user, all values
 (even numeric) here are strings... 
 - change these values as you test your script!
 */
-const userName            = "Jungmin (Jessica) Cho";
+const userName              = "Jungmin (Jessica) Cho";
 const age                   = "25";
 const cashOnHandDollarsCDN  = "216";
 const quantityOfTickets     = "3";
@@ -48,7 +48,7 @@ let tax = parseFloat(taxRate * ticketCostDollarsCDN) * parseInt(quantityOfTicket
 let totalCost = ticketPrice + tax;
 
 // If else statement: Age
-if ( age >= 24 ) {
+if ( age >= minimumAgeToPurchase ) {
     output.innerHTML = 
     `
     <p>User is old enough to buy a ticket by 1 year(s). Processing with ticket sales...</p>
