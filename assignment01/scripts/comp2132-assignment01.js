@@ -44,7 +44,7 @@ let waitAge = 24 - age*1;
 
 // Set Ticket Variables 
 let ticketPrice = quantityOfTickets * ticketCostDollarsCDN
-let tax = parseFloat(taxRate * 30) * parseInt(quantityOfTickets);
+let tax = parseFloat(taxRate * ticketCostDollarsCDN) * parseInt(quantityOfTickets);
 let totalCost = ticketPrice + tax;
 
 // If else statement: Age
